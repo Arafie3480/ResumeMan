@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@media(min-width:400px)
+{
+    .Paye{
+        background-color: darkgray;
+        margin-left: 200px ;
+        margin-right: 200px;
+        border-radius: 10px;
+        border-color: black;
+        
+    }
+    #left{
+    float: left;
+    }
+    #right{
+    float: right;
+    }
+    #h2{
+        margin: 20px;;
+    }
+}
+
+@media(max-width:399px){
+    .payee{
+        background-color:rgb(199, 196, 196) ;
+        margin-left: 10px; 
+        margin-right: 10px;
+        border-radius: 10px;
+        border-color: black;
+        padding: 10px;
+        border-width: 3px;
+    } 
+    .h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .info{
+
+        margin-left: 10px; 
+        margin-right: 10px;
+        border-color: black;
+        border-radius: 10px;
+        
+        padding: 10px;
+        border-width: 3px;
+    }
+    .bgcolor{
+        background-color: black;
+        padding: 20px;
+    }
+}
